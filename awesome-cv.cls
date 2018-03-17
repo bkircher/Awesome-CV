@@ -663,7 +663,7 @@
       \entrypositionstyle{#1} & \entrydatestyle{#4}}
     \ifempty{#6}
       {\\ \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}}
-      {\\ \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#6}} \\
+      {\\ \multicolumn{2}{L{\textwidth}}{\paragraphstyle{#6}} \\
        \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}}
   \end{tabular*}%
 }
